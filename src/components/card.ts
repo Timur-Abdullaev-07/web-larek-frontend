@@ -63,7 +63,7 @@ export class Card extends Component<ICard> {
         this.setText(this._category, value);
         if(this._category) {
             this._category.className = '';
-            let categoryColorStyle = 'card__category_'
+            let categoryColorStyle = 'card__category_';
             switch(value){
                 case('софт-скил'):
                     categoryColorStyle += 'soft';
